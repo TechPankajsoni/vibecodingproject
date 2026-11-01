@@ -17,3 +17,9 @@ stop the server.
 
 The page stores added links in the browser's local storage, so no database or
 third-party package is required.
+
+## Features
+
+- Opens links in a new tab with safe external-link handling.
+- Validates that new links use `http` or `https`.
+- Supports reduced-motion preferences and responsive layouts.
