@@ -23,3 +23,8 @@ third-party package is required.
 - Opens links in a new tab with safe external-link handling.
 - Validates that new links use `http` or `https`.
 - Supports reduced-motion preferences and responsive layouts.
+
+## Project layout
+
+- `web3.py` contains the HTTP server and the embedded web page.
+- `run.bat` starts the server from Windows Explorer or a terminal.
