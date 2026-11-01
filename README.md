@@ -28,3 +28,11 @@ third-party package is required.
 
 - `web3.py` contains the HTTP server and the embedded web page.
 - `run.bat` starts the server from Windows Explorer or a terminal.
+
+## Development check
+
+Run the following command after editing the server to verify Python syntax:
+
+```powershell
+python -m py_compile web3.py
+```
